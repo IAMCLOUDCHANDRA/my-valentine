@@ -1,0 +1,21 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #ffe6e6;
+    font-family: 'Arial', sans-serif;
+    overflow: hidden;
+}
+.container { text-align: center; }
+button {
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    margin: 10px;
+    transition: 0.3s;
+}
+#yesBtn { background-color: #ff4d4d; color: white; }
+#noBtn { background-color: #808080; color: white; position: absolute; }
